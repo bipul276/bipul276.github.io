@@ -1,0 +1,28 @@
+body {
+        font -family : "Courier New" ,Courier ,monospace ;
+        background-color: #efefef
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px; text-align: center; line-height: 100%;
+}
+           ul {text-align: center;}
+            li {
+                display: inline;
+                margin: 0px 3px;}
+            p {
+                text-align: center;
+                width: 600px; 
+                margin: 20px auto 20px auto; 
+          }
+              a {
+        color: #000000;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 6px 18px 5px 18px;}
+        a:hover , 
+        a.on {
+            color: #cc3333 ;
+            background-color: #ffffff ;       
+        }

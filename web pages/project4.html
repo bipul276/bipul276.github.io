@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frameset Example</title>
+</head>
+<frameset rows="20%, 80%">
+    <!-- Top Frame -->
+    <frame class="top" name="top" frameborder="0"marginheight="50%" marginwidth="0px" src="data:text/html,
+      <html>
+      <head>
+          <style>
+              body {
+                  background-color:rgb(195, 4, 4);border-color=black;
+                  color: white;
+                  text-align: center;
+                                }
+          </style>
+      </head>
+      <body>
+          Top Frame
+      </body>
+      </html>
+    ">
+
+    <frameset cols="50%, 50%">
+        <!-- Left Frame -->
+        <frame name="left" frameborder="0"marginheight="200%" marginwidth="0px" src="data:text/html,<html>
+      <head>
+          <style>
+              body {
+                  background-color:rgb(250, 124, 6);
+                  color: white;
+                  text-align: center;
+              }
+          </style>
+      </head>
+      <body>
+          Left Frame
+      </body>
+      </html>
+    ">
+        <!-- Right Frame -->
+        <frame name="right"frameborder="0"marginheight="200%" marginwidth="0px" src="data:text/html,<html>
+      <head>
+          <style>
+              body {
+                  background-color:rgb(250, 124, 6);
+                  color:white;
+                  text-align: center;
+              }
+          </style>
+      </head>
+      <body>
+          Right Frame
+      </body>
+      </html>
+    ">
+    </frameset>
+</frameset>
+</html>
